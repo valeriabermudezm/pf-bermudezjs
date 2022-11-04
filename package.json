@@ -1,0 +1,15 @@
+{
+  "name": "preentrega3-bermudez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss:css",
+    "watch": "sass scss:css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0"
+  },
+  "author": "Valeria Bermudez",
+  "license": "ISC"
+}
