@@ -1,0 +1,57 @@
+/*MEDIA QUERYS*/
+
+/*Media Querys MENU*/
+
+@media (max-width: 400px) {
+    .logo-header {
+        width: 38px;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-brand {
+        font-size: 0.9rem;
+    }
+}
+
+/*FIN Media Querys MENU*/
+
+
+/*Media Querys INDEX*/
+
+@media (max-width: 400px) {
+    .textoprincipal-inicio, .textofinal-inicio {
+      font-size: 2rem;
+    }
+  }
+
+/* FIN Media Querys INDEX*/
+
+
+/*Media Querys TITULOS SECCIONES*/
+
+@media (max-width: 400px) {
+    .titulo-h1 {
+        font-size: 2rem;
+    }
+}
+
+/* FIN Media Querys TITULOS SECCIONES*/
+
+/*Media Querys SOBRE MI*/
+
+@media (max-width: 991px) {
+    .sobremi-texto {
+        padding: 0 5% 18% 0%;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .sobremi-texto {
+        padding: 10% 6% 18% 6%;
+        font-size: 1rem;
+    }
+}
+
+/* FIN Media Querys SOBRE MI*/

@@ -1,0 +1,76 @@
+/*Inicio main contacto*/
+
+.df-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-form {
+    width: 80vw;
+    font-family: $fuente_textos_menu;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido_del_form {
+    width: 80%;
+    align-items: center;
+    text-align: left;
+}
+
+.separacion_items {
+    margin: 30px 0;
+}
+
+.input_form {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 12px 0;
+    font-family: $fuente_textos_menu;
+    font-weight: 300;
+    padding: 10px;
+    outline: none;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 12px 0;
+    font-family: $fuente_textos_menu;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.boton-enviar-form {
+    align-items: center;
+    text-align: center;
+}
+
+.boton_form {
+    background-color: $verde_principal;
+    color: $blanco;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 30px 0;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: $fuente_textos_menu;
+    font-weight: 800;
+    font-size: 0.9rem;
+    box-shadow: 0 0px 0px 0 rgba(55, 97, 23, 0.363), 0 0px 20px 0 rgba(55, 97, 23, 0.19);
+}
+
+/*Fin main contacto*/

@@ -1,0 +1,48 @@
+/*Inicio main servicios*/
+
+.contenedor-verde {
+    background-color: $verde_principal;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-beige {
+    @extend .contenedor-verde;
+    background-color: $beige_fondo;
+}
+
+.contenedor-blanco {
+    @extend .contenedor-verde;
+    background-color: $blanco;
+}
+
+.col-{
+    padding: 0;
+}
+
+.titulo-b {
+    font-family: $fuente_titulos;
+    font-size: 1.4rem;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    color: $blanco;
+    margin: 30% 0;
+}
+
+.titulo-d {
+    font-family: $fuente_titulos;
+    font-size: 1.5rem;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    color: $verde_hover;
+    margin: 30% 0;
+}
+
+.titulo-w {
+    @extend .titulo-d;
+    color: $verde_principal;
+}
+
+/*Fin main servicios*/

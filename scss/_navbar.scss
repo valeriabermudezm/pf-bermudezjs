@@ -1,0 +1,37 @@
+.navbar {
+    background-color: $beige_valarte;
+    color: $verde_principal;
+    font-family: $fuente_textos_menu;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: $verde_principal;
+    font-family: $fuente_textos_menu;
+    letter-spacing: 0.2rem;
+}
+
+.nav-item {
+    color: $verde_principal;
+    font-family: $fuente_textos_menu;
+    text-transform: uppercase;
+}
+
+.logo-header {
+    width: 60px;
+    margin: 20px 5px 20px 10px;
+}
+
+.nav-link {
+    color: $verde_principal;
+}
+
+a {
+    text-decoration: none;
+    color: $verde_valarte;
+
+    &:hover {
+        color: $verde_hover;
+        text-decoration: none;
+    }
+  }

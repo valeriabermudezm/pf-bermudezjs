@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Inicio main index*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 300px 0;
+}
+
+.textoprincipal-inicio {
+    @include textos-index ($fuente_titulos);
+    width: 50%;
+    color: $verde_principal;
+}
+
+.salto_linea {
+    display: block;
+    margin-top: 30px;
+}
+
+.contenedorfinal-inicio {
+    background-color: $verde_valarte;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+
+.textofinal-inicio {
+    @include textos-index ($fuente_titulos);
+    width: 50%;
+    color: $blanco;
+}
+
+.botondecontacto-inicio {
+    background-color: $blanco;
+    padding: 15px;
+    margin: 40% 0 0 0;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: $fuente_textos_menu;
+    font-weight: 800;
+    font-size: 0.9rem;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgba(55, 97, 23, 0.363), 0 0px 20px 0 rgba(55, 97, 23, 0.19);
+}
+
+.botondecontacto-inicio:hover {
+    transform: scale(1.2);
+}
+
+/*Fin main index*/

@@ -1,0 +1,5 @@
+@mixin textos-index ($fuente_titulos) {
+    font-family: $fuente_titulos;
+    text-align: center;
+    font-size: 3rem;
+}

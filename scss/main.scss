@@ -1,3 +1,13 @@
-@import "_variables";
-@import "_index";
-@import "_mediaq";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import "variables";
+@import "mixin";
+@import "navbar";
+@import "index_main";
+@import "titulos_secciones";
+@import "portafolio_main";
+@import "servicios_main";
+@import "sobremi_main";
+@import "contacto_main";
+@import "footer";
+@import "mediaq";
