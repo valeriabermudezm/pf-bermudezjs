@@ -59,45 +59,28 @@
                     <p>Me gustaría saber que ideas tienes en mente, diligencia el siguiente formulario con el mayor
                         detalle y me pondré en contacto contigo lo más pronto posible. Muchas gracias.</p>
 
-                    <form action="" class="formulario">
+                    <form id="formulario1" class="formulario">
                         <div class="separacion_items">
                             <label for="nombre y apellido">Nombre y apellido:</label>
-                            <input type="text" placeholder="Nombre y apellido" class="input_form" required>
+                            <input type="text" placeholder="Nombre y apellido" class="input_form" id="nombre1" required>
                         </div>
                         <div class="separacion_items">
                             <label for="email">Email:</label>
-                            <input type="email" placeholder="Email" class="input_form" required>
+                            <input type="email" placeholder="Email" class="input_form" id= "correo1" required>
                         </div>
                         <div class="separacion_items">
-                            <label for="interes">Estoy interesado en: (Por favor solo seleccionar el/los servicio(s) de
-                                tú
-                                interés).</label>
-                            <div>
-                                <input type="checkbox" name="interes" value="branding/identidaddemarca" class="" />
-                                Branding/Identidad de marca
-                            </div>
-                            <div>
-                                <input type="checkbox" name="interes" value="disenografico" class="" />
-                                Diseño gráfico
-                            </div>
-                            <div>
-                                <input type="checkbox" name="interes" value="disenoydesarrolloweb" class="" />
-                                Diseño y desarrollo web
-                            </div>
-                        </div>
+                            <label for="area de servicios">Escribe el/las área/s de servicio/s de tú interés (Branding e identidad de marca, Diseño gráfico y/o Diseño y desarrollo web)</label>
+                            <input type="text" placeholder="Área/s de servicio/s de tu interés" class="input_form" id="servicio1" required>
+                        </div> 
                         <div class="separacion_items">
                             <label for="Contexto general">Contexto general de tu proyecto. Si es un marca diligenciar
                                 nombre,
                                 país de procedencia, productos/servicios que ofrecen, redes sociales, etc.</label>
                             <textarea cols="50" rows="10" required
-                                placeholder="Contexto general de tu proyecto"></textarea>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="acepta" value="1" class="" />
-                            Acepta términos y condiciones
+                                placeholder="Contexto general de tu proyecto" id="texto1"></textarea>
                         </div>
                         <div class="boton-enviar-form">
-                            <input type="button" value="Enviar" class="boton_form">
+                            <input type="submit" value="Enviar" class="boton_form" id="enviar1">
                         </div>
                     </form>
                 </div>
@@ -147,6 +130,8 @@
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/04631ea78e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../javascript/formulario.js"></script>
 </body>
 
 </html>
