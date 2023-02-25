@@ -253,6 +253,37 @@ textarea {
   box-shadow: 0 0px 0px 0 rgba(55, 97, 23, 0.363), 0 0px 20px 0 rgba(55, 97, 23, 0.19);
 }
 
+#map {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divMap {
+  background-color: #F1EFE9;
+}
+
+.titulo-nos-encuen {
+  display: block;
+  color: #70825B;
+  font-family: "Vidaloka", serif;
+  font-size: 2.2rem;
+  justify-content: center;
+  text-align: center;
+  padding: 35px 0;
+}
+
+#coordenadas {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #70825B;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+}
+
 /*Fin main contacto*/
 /*Inicio footer*/
 .bg-footer {
